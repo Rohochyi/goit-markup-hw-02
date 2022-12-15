@@ -2,6 +2,7 @@
 :root {
   --primery-text-color: #2e2f42;
   --color-wight: #ffffff;
+  --color-iris: #4D5AE5;
 }
 
 body {
@@ -43,7 +44,7 @@ color: #434455;
 }
 
 .hero-btn {
-  background: #4D5AE5;
+  background-color: var(--color-iris)
 }
 
 /* Кнопки */
@@ -52,7 +53,7 @@ color: #434455;
 }
 .btn:hover,
 .btn:focus {
-  background-color: #4d5ae5;
+background-color: var(--color-iris)
 }
 
 .title {
@@ -68,6 +69,10 @@ letter-spacing: 0.02em;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+
+.logo-letters {
+  color: var(--color-iris);
 }
 
 .site-nav .link {
