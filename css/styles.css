@@ -42,14 +42,25 @@ color: #434455;
   color: var(--color-wight);
 }
 
+.hero-btn {
+  background: #4D5AE5;
+}
+
+/* Кнопки */
+.btn {
+  background-color: #e7e9fc;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #4d5ae5;
+}
+
 .title {
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
-
-
 /* Лого */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -69,18 +80,19 @@ letter-spacing: 0.02em;
   color: var(--primery-text-color);
 }
 
-/* Кнопки */
-.btn {
-  background-color: #e7e9fc;
+.section-team {
+  background-color: #F4F4FD;"
 }
-.btn:hover,
-.btn:focus {
-  background-color: #4d5ae5;
+
+.footer {
+background-color: var(--primery-text-color);
 }
 
 .footer-text {
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
+color: #E7E9FC;
 }
+
