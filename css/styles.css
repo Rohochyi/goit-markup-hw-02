@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+/* Лого */
+.logo {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16x;
+letter-spacing: 0.03em;
+}
+
+/* Кнопки */
+.btn {
+background-color: #E7E9FC ;
+}
+.btn:hover,
+.btn:focus {
+background-color: #4D5AE5;
+}
