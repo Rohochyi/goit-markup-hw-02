@@ -208,6 +208,7 @@
   line-height: 1.5;
   color: #4d5ae5;
   background: #f4f4fd;
+  cursor: pointer;
 }
 
 .filter-btn:hover,
